@@ -1,0 +1,4 @@
+name: Drupal Training 35
+description: Module for training excersize 35
+type: module
+core_version_requirement: '>=8'
