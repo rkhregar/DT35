@@ -13,3 +13,13 @@ DT35.welcomeControllerWithName:
     _title: 'Welcome Controller'
   requirements:
     _access: 'TRUE'
+
+DT35.config_form:
+  path: '/admin/config/dt35-config'
+  defaults:
+    _form: '\Drupal\DT35\Form\DT35ConfigForm'
+    _title: 'DT 35 Config Form'
+  requirements:
+    _permission: 'administer content'
+  options:
+    _admin_route: TRUE
