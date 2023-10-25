@@ -1,4 +1,4 @@
-# DT35
+# dt35
 Drupal Training 35
 Exercises
 

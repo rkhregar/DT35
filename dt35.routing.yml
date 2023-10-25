@@ -1,23 +1,23 @@
-DT35.welcomeController:
+dt35.welcomeController:
   path: '/dt35-welcome'
   defaults:
-    _controller: '\Drupal\DT35\Controller\DT35WelcomeController::welcomeBasic'
+    _controller: '\Drupal\dt35\Controller\DT35WelcomeController::welcomeBasic'
     _title: 'Welcome Controller'
   requirements:
     _access: 'TRUE'
 
-DT35.welcomeControllerWithName:
+dt35.welcomeControllerWithName:
   path: '/dt35-welcome/{name}'
   defaults:
-    _controller: '\Drupal\DT35\Controller\DT35WelcomeController::welcomeWithName'
+    _controller: '\Drupal\dt35\Controller\DT35WelcomeController::welcomeWithName'
     _title: 'Welcome Controller'
   requirements:
     _access: 'TRUE'
 
-DT35.config_form:
+dt35.config_form:
   path: '/admin/config/dt35-config'
   defaults:
-    _form: '\Drupal\DT35\Form\DT35ConfigForm'
+    _form: '\Drupal\dt35\Form\DT35ConfigForm'
     _title: 'DT 35 Config Form'
   requirements:
     _permission: 'administer content'

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\DT35\Service;
+namespace Drupal\dt35\Service;
 
 /**
  * {@inheritDoc}

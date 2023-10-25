@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\DT35\Form;
+namespace Drupal\dt35\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;

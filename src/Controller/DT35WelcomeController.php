@@ -1,9 +1,9 @@
 <?php
 
-namespace Drupal\DT35\Controller;
+namespace Drupal\dt35\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\DT35\Service\DT35Service;
+use Drupal\dt35\Service\dt35Service;
 
 /**
  * {@inheritDoc}
