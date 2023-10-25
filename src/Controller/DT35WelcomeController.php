@@ -3,7 +3,7 @@
 namespace Drupal\dt35\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\dt35\Service\dt35Service;
+use Drupal\dt35\Service\DT35Service;
 
 /**
  * {@inheritDoc}

@@ -1,5 +1,5 @@
 dt35.welcomeController:
-  path: '/dt35-welcome'
+  path: '/welcome'
   defaults:
     _controller: '\Drupal\dt35\Controller\DT35WelcomeController::welcomeBasic'
     _title: 'Welcome Controller'
@@ -7,7 +7,7 @@ dt35.welcomeController:
     _access: 'TRUE'
 
 dt35.welcomeControllerWithName:
-  path: '/dt35-welcome/{name}'
+  path: '/welcome/{name}'
   defaults:
     _controller: '\Drupal\dt35\Controller\DT35WelcomeController::welcomeWithName'
     _title: 'Welcome Controller'
